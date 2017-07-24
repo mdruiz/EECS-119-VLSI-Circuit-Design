@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mdruiz
+HostName                       zuma.eecs.uci.edu
+ProcessIdentifier              14500
+ProcessCreationTime_UTC        1478037873
+ProcessCreationTime_Readable   Tue Nov  1 15:04:33 2016 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /users/ugrad2/2014/fall/mdruiz/eecs119/MyLib/Oscillator/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Nov  1 15:54:35 2016 PDT

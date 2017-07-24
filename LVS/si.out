@@ -1,0 +1,93 @@
+@(#)$CDS: LVS version 6.1.6 09/01/2015 15:36 (sjfnl125) $
+
+Command line: /ecelib/linware/cadence/ic616/tools.lnx86/dfII/bin/32bit/LVS -dir /users/ugrad2/2014/fall/mdruiz/eecs119/LVS -l -s -t /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/layout /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/layout/netlist
+       count
+        131             nets
+        8               terminals
+        127             pmos
+        127             nmos
+
+    Net-list summary for /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/schematic/netlist
+       count
+        131             nets
+        8               terminals
+        127             pmos
+        127             nmos
+
+
+    Terminal correspondence points
+    N128      N9        CLK
+    N127      N18       Q0
+    N126      N22       Q1
+    N125      N12       Q2
+    N124      N11       Q3
+    N130      N20       UP_DOWN
+    N123      N1        gnd!
+    N129      N0        vdd!
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  254     254    
+        total                   254     254    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  131     131    
+        total                   131     131    
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   8       8      
+
+
+Probe files from /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /users/ugrad2/2014/fall/mdruiz/eecs119/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
